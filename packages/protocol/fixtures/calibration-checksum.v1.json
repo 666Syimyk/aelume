@@ -1,0 +1,32 @@
+{
+  "_comment": "Generated independently with Node.js JSON.stringify + sorted keys (scratch script). Both Python and TypeScript must reproduce canonical_json and checksum exactly.",
+  "profile_without_checksum": {
+    "schema_version": 1,
+    "device_id": "dev_d42c_example",
+    "optical_assembly_id": "opt_rev_A",
+    "display_profile_id": "display_proto_01",
+    "mode": "single_reflector",
+    "mirror_x": true,
+    "mirror_y": false,
+    "rotation_deg": 0,
+    "scale": 1,
+    "offset_normalized": {
+      "x": 0,
+      "y": -0.025
+    },
+    "viewport_normalized": {
+      "x": 0.05,
+      "y": 0.1,
+      "w": 0.9,
+      "h": 0.8
+    },
+    "content_brightness": 0.85,
+    "max_luminance_profile": "lab_safe_01",
+    "profile_revision": 3,
+    "created_at": "2026-10-31T06:00:00Z",
+    "updated_at": "2026-11-03T10:00:00Z",
+    "software_version": "hcc-lab/0.1.0"
+  },
+  "canonical_json": "{\"content_brightness\":0.85,\"created_at\":\"2026-10-31T06:00:00Z\",\"device_id\":\"dev_d42c_example\",\"display_profile_id\":\"display_proto_01\",\"max_luminance_profile\":\"lab_safe_01\",\"mirror_x\":true,\"mirror_y\":false,\"mode\":\"single_reflector\",\"offset_normalized\":{\"x\":0,\"y\":-0.025},\"optical_assembly_id\":\"opt_rev_A\",\"profile_revision\":3,\"rotation_deg\":0,\"scale\":1,\"schema_version\":1,\"software_version\":\"hcc-lab/0.1.0\",\"updated_at\":\"2026-11-03T10:00:00Z\",\"viewport_normalized\":{\"h\":0.8,\"w\":0.9,\"x\":0.05,\"y\":0.1}}",
+  "checksum": "sha256:06a1e047a5e2c88749a8ab73937ca6b5cb9c0967d5b37a339b98ea2074f21fb4"
+}

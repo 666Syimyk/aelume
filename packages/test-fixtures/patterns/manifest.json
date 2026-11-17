@@ -1,0 +1,204 @@
+{
+  "generator": "hcc_lab.patterns",
+  "generator_version": "1",
+  "opencv": "4.11.0",
+  "numpy": "1.26.4",
+  "python": "3.12.10",
+  "note": "Hashes depend on OpenCV/zlib versions; regenerate with the pinned lockfile.",
+  "patterns": [
+    {
+      "id": "HCC-PAT-01",
+      "name": "asym_lr_arrows",
+      "file": "asym_lr_arrows_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 19688,
+      "sha256": "6976c6b7557eb1c290a2f2a5aef7566b33160e640f402b1514814d1ddf49beb1",
+      "purpose": "mirror/rotation orientation (OPT-010, B-010)"
+    },
+    {
+      "id": "HCC-PAT-02",
+      "name": "grid",
+      "file": "grid_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 23355,
+      "sha256": "46c1eafa572c7f5ca29dc8e084d03dfe65d0b463abe214dc6f66165961b36c14",
+      "purpose": "geometry, keystone, scale"
+    },
+    {
+      "id": "HCC-PAT-03",
+      "name": "gray_ramp",
+      "file": "gray_ramp_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 21235,
+      "sha256": "a13978841b30548837e42d00056750a9b0073fe6247125860611b7cee7dd0a57",
+      "purpose": "black level, gamma, contrast steps"
+    },
+    {
+      "id": "HCC-PAT-04",
+      "name": "rgb_bars",
+      "file": "rgb_bars_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 13965,
+      "sha256": "fc4f11f4a80ca62853954126ba4c945338a162dfc9d51bf167814a09e1c1211a",
+      "purpose": "channel order (C-008)"
+    },
+    {
+      "id": "HCC-PAT-05",
+      "name": "neutral_tones",
+      "file": "neutral_tones_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 21511,
+      "sha256": "71693d9caffe01979505a6f83f0ef5cd427bce5c7acd759b8af052da00321e0b",
+      "purpose": "tonal rendering, generic patches"
+    },
+    {
+      "id": "HCC-PAT-06",
+      "name": "checkerboard",
+      "file": "checkerboard_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 9135,
+      "sha256": "2af6f1780b5d9933dadbf9dcc17762785a5be9705463ba47f400eafdb08f5ffc",
+      "purpose": "focus/sharpness, distortion"
+    },
+    {
+      "id": "HCC-PAT-07",
+      "name": "centering_target",
+      "file": "centering_target_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 100550,
+      "sha256": "0e51ed4a1a8968666e0e9a28c814e96b15f2c0be4d6906981b2f6b50e160d133",
+      "purpose": "centre alignment"
+    },
+    {
+      "id": "HCC-PAT-08",
+      "name": "ghost_line",
+      "file": "ghost_line_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 14113,
+      "sha256": "2c0bf2428d0bf7a77d771b0a0711e65eba9f79b91353bccfdc2b569491787cc1",
+      "purpose": "double reflection / ghosting (OPT-008)"
+    },
+    {
+      "id": "HCC-PAT-09",
+      "name": "size_marks",
+      "file": "size_marks_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 16036,
+      "sha256": "fd1a0ca4c938e962b3bf1ba8c48fe55deb0836edbbe31218d6ac5a40eef256a1",
+      "purpose": "virtual image size measurement (DSP-002, OPT-007)"
+    },
+    {
+      "id": "HCC-PAT-01",
+      "name": "asym_lr_arrows",
+      "file": "asym_lr_arrows_1080x1080.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 14689,
+      "sha256": "85a71239fe4e613ba39f72a06ca382b24e616c77f314fd79d2dd284d541dc68c",
+      "purpose": "mirror/rotation orientation (OPT-010, B-010)"
+    },
+    {
+      "id": "HCC-PAT-02",
+      "name": "grid",
+      "file": "grid_1080x1080.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 18445,
+      "sha256": "e7ca3ad2c2b45e4f9dc3485d2bc662c6adaedf6c12e6b4afc89275fcb7170faf",
+      "purpose": "geometry, keystone, scale"
+    },
+    {
+      "id": "HCC-PAT-03",
+      "name": "gray_ramp",
+      "file": "gray_ramp_1080x1080.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 16783,
+      "sha256": "5c5f9f84fe6a61be05beedefd1a4aa9288c1a72f88ef1281c4f237ed105877b9",
+      "purpose": "black level, gamma, contrast steps"
+    },
+    {
+      "id": "HCC-PAT-04",
+      "name": "rgb_bars",
+      "file": "rgb_bars_1080x1080.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 10177,
+      "sha256": "e65017723889db984394179d3a992126a94a7076be3be475328ffaf3da3b974b",
+      "purpose": "channel order (C-008)"
+    },
+    {
+      "id": "HCC-PAT-05",
+      "name": "neutral_tones",
+      "file": "neutral_tones_1080x1080.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 16484,
+      "sha256": "a906beef9579f4e779a80504a74a34b0b896ea9320c29df6797d373e2472072c",
+      "purpose": "tonal rendering, generic patches"
+    },
+    {
+      "id": "HCC-PAT-06",
+      "name": "checkerboard",
+      "file": "checkerboard_1080x1080.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 5313,
+      "sha256": "abcd9728ae0a8507d5ca210fec65c6230351f4fbc7e26fcf9409840f3c271187",
+      "purpose": "focus/sharpness, distortion"
+    },
+    {
+      "id": "HCC-PAT-07",
+      "name": "centering_target",
+      "file": "centering_target_1080x1080.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 87990,
+      "sha256": "c66d91558feea74be1441ab96a4fc1aa6e86143db5b56bb73695d1910ed7febe",
+      "purpose": "centre alignment"
+    },
+    {
+      "id": "HCC-PAT-08",
+      "name": "ghost_line",
+      "file": "ghost_line_1080x1080.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 10023,
+      "sha256": "f0980f2be28c7681dc76a385bb040a43ceda1a8d1d604c1bfc740401a06118b2",
+      "purpose": "double reflection / ghosting (OPT-008)"
+    },
+    {
+      "id": "HCC-PAT-09",
+      "name": "size_marks",
+      "file": "size_marks_1080x1080.png",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 12275,
+      "sha256": "bc603fe5de53f98c8914a5faf131c88f00c461bbff315ef7af1e444be38aadef",
+      "purpose": "virtual image size measurement (DSP-002, OPT-007)"
+    }
+  ],
+  "videos": [
+    {
+      "id": "HCC-VID-01",
+      "file": "timer_counter_1280x720_30fps.mp4",
+      "fps": 30,
+      "frames": 150,
+      "width": 1280,
+      "height": 720,
+      "codec": "mp4v",
+      "bytes": 856226,
+      "sha256": "5aeeec24f882771194192103dfcbda5b8932dbdf527d1ef19ad95709e646477d",
+      "purpose": "frame identification / timing (B-009); frame number encoded as 16-bit squares"
+    }
+  ]
+}
