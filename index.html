@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>AELUME · HoloCall Cube</title>
+<link rel="stylesheet" href="lab.css">
+<script type="module" src="lab.js"></script>
+</head>
+<body>
+<main>
+  <header>
+    <p>Оптическая лаборатория</p>
+    <h1>AELUME</h1>
+    <p>Калибровочные мишени HoloCall Cube для проверки геометрии, цвета и отражений.</p>
+  </header>
+  <section aria-label="Предпросмотр калибровочной мишени">
+    <div class="panel">
+      <label>Мишень<select id="pattern">
+        <option value="centering_target">Центрирование</option>
+        <option value="grid">Сетка</option>
+        <option value="rgb_bars">Цветовые полосы</option>
+        <option value="gray_ramp">Градации серого</option>
+        <option value="checkerboard">Шахматная сетка</option>
+        <option value="ghost_line">Двоение контуров</option>
+      </select></label>
+      <label>Поворот<select id="rotation">
+        <option value="0">0°</option><option value="90">90°</option><option value="180">180°</option><option value="270">270°</option>
+      </select></label>
+      <label>Яркость<input type="range" id="brightness" min="15" max="100" value="100"></label>
+      <label class="checkbox"><input type="checkbox" id="mirror"> Отражение</label>
+    </div>
+    <div class="stage">
+      <img id="target" src="patterns/centering_target_1080x1080.png" alt="Мишень для центрирования">
+    </div>
+  </section>
+  <footer>
+    <p>Веб-демо использует мишени из репозитория. Работа с камерой, проектором и профилями калибровки доступна в настольной версии.</p>
+    <a href="https://github.com/666Syimyk/aelume">Исходники и документация</a>
+  </footer>
+</main>
+</body>
+</html>
